@@ -1,0 +1,30 @@
+h3 {
+    color: pink
+}
+
+.para {
+    color: blue;
+    font-size: 30px;
+}
+
+#btn {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box-1 {
+    background-color: blueviolet;
+}
+
+.box-2{
+    background-color: pink;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 300px;
+    height:150px;
+}
+
