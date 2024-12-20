@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table and form</title>
-<link rel="stylesheet" href="./../CSS/Table and form.css"
-</head>
-<body>
-    <div class="container">
-    <div class="form-container">
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div>
+          <div className="container">
+    <div className="form-container">
         <h1> College Admission Form</h1>
 <table>
     <thead>
@@ -41,14 +38,19 @@
             </tbody>
         </table>
     </div>
-    <div class="table-container">
+    <div className="table-container">
         <h1> Student List</h1>
-<input type="text" placeholder="Full Name"/><br>
-<input type="password" placeholder="Password"/><br>
-<input type="email" placeholder="Full Name"/><br>
-<input type="Mobile" placeholder="Full Name"/>
+<input type="text" placeholder="Full Name"/>
+<input type="password" placeholder="Password"/>
+<input type="email" placeholder="Email"/>
+<input type="Mobile" placeholder="Monile"/>
+<br/>
+<button>Save</button>
 </div>
 </div>
-</table>
-</body>
-</html>
+    </div>
+  );
+  
+  }
+
+export default App;

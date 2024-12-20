@@ -1,0 +1,13 @@
+.container1{
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    gap: 50px;
+    width: 35%;
+    height: 40%;
+}
+.table-container, .form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
