@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
     <div>
+       <Header First="Home" Second="about" third="contact" fourth="profile"/>
           <div className="container">
     <div className="form-container">
         <h1> College Admission Form</h1>
