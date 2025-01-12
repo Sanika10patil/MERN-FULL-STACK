@@ -31,6 +31,67 @@ ul {
 .img-arrow {
   width: 5%;
 }
+.sub-title-section{
+  color: #EF7F22;
+  font-weight: bold;
+}
+.title-section{
+  color: #1B2F57;
+}
+.box-row-sub-title{
+  font-weight: bold;
+  color: #0E1F51;
+  margin-right: 100px ;
+}
+.box-row-subtitle{
+  font-weight: bold;
+  color: #0E1F51;
+  margin-left: 100px ;
+}
+.box-row-title{
+  font-weight: bold;
+  color: #EF7F22;
+  margin-right: 130px ;
+}
+ /*.box-row-icon-text{
+   border: 1px solid black;
+   
+}*/
+.icon-form-box{
+  background:#F7F7F7 ;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.last-icon{
+  background-color:#EF7F22;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 17px;
+  padding: 15px;
+  width: 50px;
+  height:50px;
+}
+.contactus-button{
+  margin-left: 130px;
+  border-radius: 15px;
+  background-color:#EF7F22;
+   border: none;
+   padding: 5px;
+}
+
+
+ 
+ .contact-form-input{
+  margin-bottom: 35px;
+  margin-left: 128px;
+  margin-top: 11px;
+  background-color: #F7F7F7;
+  border: none;
+  padding: 12px;
+  width: 52%;
+  border-radius: 13px;
+  font-weight: bold;
+ }
 
 
 /* hero img css start */

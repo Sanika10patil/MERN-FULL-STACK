@@ -1,0 +1,15 @@
+.image-container {
+    width: 200px; /* Adjust width as needed */
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .text-assigment{
+    text-align: right;
+     font-weight: bold;
+  }

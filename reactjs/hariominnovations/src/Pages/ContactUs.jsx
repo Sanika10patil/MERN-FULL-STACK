@@ -7,6 +7,15 @@ import facebookIcon from "./../images/footer-facebook.png";
 import twiterIcon from "./../images/footer-twiter.png";
 import instagramIcon from "./../images/footer-instagram.png";
 import bgheroimg from "./../images/hero-img-contactus.png";
+import Line from "./../images/Line.png";
+import calliconform from "./../images/call-icon-form.png";
+import emailiconform from "./../images/email-icon-form.png";
+import locationiconform from "./../images/location-icon-form.png";
+import linkedinicon from "./../images/linkedin-icon.png";
+import instragramicon from "./../images/instragram-icon.png";
+import facebookicon from "./../images/facebook-icon.png";
+import twitericon from "./../images/twiter-icon.png";
+import contactusarrow from "./../images/contactus-arrow.png";
 const ContactUs = () => {
   return (
     <div>
@@ -21,42 +30,87 @@ const ContactUs = () => {
         
       </div>
 
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry. Lorem Ipsum has been the industry's standard dummy
-        text ever since the 1500s, when an unknown printer took a galley of type
-        and scrambled it to make a type specimen book. It has survived not only
-        five centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry. Lorem Ipsum has been the industry's standard dummy
-        text ever since the 1500s, when an unknown printer took a galley of type
-        and scrambled it to make a type specimen book. It has survived not only
-        five centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry. Lorem Ipsum has been the industry's standard dummy
-        text ever since the 1500s, when an unknown printer took a galley of type
-        and scrambled it to make a type specimen book. It has survived not only
-        five centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
-
+      <div className="continer py-5">
+        <div className="row text-center py-5">
+          <div className="col-md-12">
+          <img src={Line}/><spam className="sub-title-section"> Get In Touch</spam>
+          <h3 className="title-Section box-row-subtitle">Hey Let's Talk</h3>
+        </div>
+        </div>
+       <div className="row">
+        <div className="col-md-8">
+          <input type="text"placeholder="Name" className="contact-form-input"/>
+          <br></br>
+          <input type="email"placeholder="Email" className="contact-form-input"/>
+          <br></br>
+          <input type=" phone" placeholder="Phone" className="contact-form-input"/>
+          <br></br>
+          <textarea placeholder="Your Message" rows="5"className="contact-form-input"></textarea>
+          <div>
+            <button className="contactus-button text-white">Send Now<img src={contactusarrow}/></button>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="row box-row-icon-text my-3">
+            <div className="col-md-4 text-center m-auto">
+              <div className="icon-form-box p-4">
+                <img src={calliconform}/>
+                </div>
+              </div>
+              <div className="col-md-8">
+                <p className="box-row-title">Call Anytime</p>
+                <span className="box-row-sub-title">+ 91 23678 27867
+                  <br/>
+                + 91 67678 92878</span>
+              </div>
+            </div>
+            <div className="row box-row-icon-text my-3">
+              <div className="col-md-4 text-center m-auto">
+                <div className="icon-form-box p-4">
+                <img src={emailiconform}/>
+                </div>
+               </div>
+              <div className="col-md-8">
+              <p className="box-row-title">Send Email</p>
+                <span className="box-row-sub-title">connect@itfirms.com
+                  <br/>
+                hello@itfirms.com
+                </span>
+              </div>
+              </div>
+              <div className="row box-row-icon-text my-3">
+              <div className="col-md-4 text-center m-auto">
+                <div className="icon-form-box p-4">
+                <img src={locationiconform}/>
+                </div>
+              </div>
+              <div className="col-md-8">
+              <p className="box-row-title"> Visit Us</p>
+                <span className="box-row-sub-title">20 Island Park Road, 
+                  <br/>
+                New Jearsy, New York, USA
+               </span>
+              </div>
+              
+            <div className="row">
+              <div className="col-md-12">
+                <div>
+                  <br/>
+                <h3 className="box-row-sub-title">Follow Us</h3>
+                </div>
+                <br/>
+          <div>
+          <img src={linkedinicon} className="last-icon"/>
+          <img src={instragramicon} className="last-icon"/>
+          <img src={facebookicon} className="last-icon"/>
+          <img src={twitericon} className="last-icon"/>
+          </div>   
+            </div>
+          </div>
+        </div>
+       </div>
+       </div>
+</div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4686.7554608241!2d74.22187720000001!3d17.3194702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc17f03509738b1%3A0x576f02648d3bb018!2sHari%20Om%20Innovations!5e1!3m2!1sen!2sin!4v1735697210880!5m2!1sen!2sin"
         style={{
