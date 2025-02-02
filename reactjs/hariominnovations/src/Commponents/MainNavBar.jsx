@@ -7,7 +7,9 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "./../images/logohariom.png";
 import arrow from "./../images/arrow-contact-us.png";
-const mainNavBar = () => {
+import { Link } from "react-router-dom";
+
+const MainNavBar = () => {
   return (
     <div>
       <Navbar expand="lg" className="">
@@ -21,15 +23,16 @@ const mainNavBar = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link className="nav-link">Home</Nav.Link>
-            <Nav.Link className="nav-link">About Us</Nav.Link>
+            <Nav.Link className="nav-link"> <Link to="/">Home</Link></Nav.Link>
+            <Nav.Link className="nav-link"> <Link to="/aboutus">About Us</Link> </Nav.Link>
+            <Nav.Link className="nav-link"> <Link to="/productpage">ProducPage</Link> </Nav.Link>
             <Nav.Link className="nav-link">Services</Nav.Link>
             <Nav.Link className="nav-link">Careers</Nav.Link>
             <Nav.Link className="nav-link">Case Studies</Nav.Link>
             <Nav.Link className="nav-link">Testimonial</Nav.Link>
           </Nav>
           <div className="d-flex">
-            <Button className="button">Contact Us</Button>
+            <Button className="button"> <Link to="/contactus">Contact Us</Link> </Button>
           </div>
           <img src={arrow} className="img-arrow"/>
 
@@ -37,7 +40,6 @@ const mainNavBar = () => {
       </Navbar>
     </div>
   );
-
 };
 
-export default mainNavBar;
+export default MainNavBar;
