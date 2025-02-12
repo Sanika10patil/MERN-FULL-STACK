@@ -1,4 +1,5 @@
 import React from 'react'
+import MainNavBar from '../Commponents/MainNavBar'
 
 function HomePage() {
   return (

@@ -160,6 +160,7 @@ hr{
 .item-product {
   padding: 20px;
   text-align: center; /* Center the text within each item */
+  justify-content: space-between;
 }
  
 .description-product {
@@ -183,11 +184,16 @@ hr{
  
 .item-product-last-1 {
   padding: 20px;
-  text-align: center;
+  text-align: left;
   flex-direction: row; /* Center the text within each item */
+
 }
  
 .description-product-last-1 {
-  text-align: left;  /* Adds some space above the description text */
+  text-align: right;  /* Adds some space above the description text */
+  white-space-collapse: 15px;
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: normal;
 }
  

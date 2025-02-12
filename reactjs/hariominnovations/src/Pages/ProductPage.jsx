@@ -1,26 +1,26 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from "react-bootstrap/Button";
- 
 import bgheroimg from "./../images/hero-img-contactus.png";
-import MainNavBar from "../Components/MainNavBar";
-import Mainfooter from "./../Components/MainFooter";
-import group from "./../images/Group.png";
-import page from "./../images/product-page.png";
-import arrow from "./../images/contactus-arrow.png";
-import rocket from "./../images/rocket.png";
-import lastimage from "./../images/product-page-footer.png";
-import readMore from "./../images/arrow-product-page.png";
+import MainFooter from "./../Commponents/MainFooter"
+import group from "./../images/Group.png"
+import Application from "./../images/New-Img.png"
+import arrow from "./../images/contactus-arrow.png"
+import rocket from "./../images/rocket.png"
+import lastimage from "./../images/product-page-footer.png"
+import readMore from "./../images/arrow-product-page.png"
 import frame from "./../images/Frame.png"
 import framelast from "./../images/Frame 39.png"
+import MainNavBar from '../Commponents/MainNavBar';
  
- 
-const Productpage = () => {
+const ProductPage = () => {
   return (
     <div>
       <div className="container">
-        <MainNavBar />
-      </div>
+<MainNavBar />
+
+</div>
+    
       {/* Hero Image Section */}
       <div className="hero-img-div">
         <img src={bgheroimg} className="hero-img" alt="Hero Background" />
@@ -58,7 +58,7 @@ const Productpage = () => {
             <img src={arrow} className="img-arrow"/>
           </div>
           <div className='col-md-6 d-flex align-items-center justify-content-center'>
-            <img src={page} alt="product-page-image" className="img-fluid" style={{ width: 'auto', height: '400px' }}/>
+            <img src={Application} /> 
           </div>
         </div>
        
@@ -204,9 +204,10 @@ const Productpage = () => {
  
  
  
-      <Mainfooter />
+ <MainFooter/>
+
     </div>
   )
 }
  
-export default Productpage;
+export default ProductPage;
