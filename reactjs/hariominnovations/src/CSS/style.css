@@ -18,7 +18,11 @@ ul {
 }
 
 .nav-bar {
-  margin-left: 18%;
+  margin-left: 5%;
+  padding: 0%;
+  display: flex;
+  
+  
 }
 
 .nav-link {
@@ -26,6 +30,7 @@ ul {
   font-size: 18px;
   font-weight: 500;
   margin: 12px;
+  
 }
 
 .img-arrow {
@@ -36,7 +41,7 @@ ul {
   font-weight: bold;
 }
 .title-section{
-  color: #1B2F57;
+  color: #11205e;
 }
 .box-row-sub-title{
   font-weight: bold;
@@ -102,7 +107,7 @@ ul {
 .hero-im-text-div{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
 }
 
 .hero-img{
@@ -154,46 +159,82 @@ hr{
 }
 /* footer CSS End */
  
-/* product-age-css */
- 
-/* Ensure the description section has padding and spacing */
-.item-product {
-  padding: 20px;
-  text-align: center; /* Center the text within each item */
-  justify-content: space-between;
-}
- 
-.description-product {
-  padding-top: 10px;  /* Adds some space above the description text */
-}
- 
-.image-product {
-  width: 80%;  /* Adjust the image width to make it smaller */
-  max-width: 200px;  /* Limit the maximum width */
-  margin-bottom: 10px;  /* Adds space below the image */
-}
- 
-.item-product-last {
-  padding: 20px;
-  text-align: center; /* Center the text within each item */
-}
- 
-.description-product-last {
-  text-align: left;  /* Adds some space above the description text */
-}
- 
-.item-product-last-1 {
-  padding: 20px;
-  text-align: left;
-  flex-direction: row; /* Center the text within each item */
+/* Product Page*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+
+
 
 }
- 
-.description-product-last-1 {
-  text-align: right;  /* Adds some space above the description text */
-  white-space-collapse: 15px;
-  font-size: 14px;
-  margin-top: 15px;
-  font-weight: normal;
+
+
+.item-product {
+
+  border-radius: 10px;
+  padding: 20px;
+  gap: 10px;
+  
+
 }
+
+.image-product {
+  width: 50px;
+  height: 50px;
+}
+
+.description-product h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  
+}
+
+.description-product p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.col-md-4, .col-md-6 {
+  padding: 100px;
+  margin-left: auto;
+  
+}
+
+
+
+.description-product-last{
+  
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+}
+.item-product-last-1{
+  max-width: 5%;
+}
+.testimonial-container{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  column-gap: 10%;
+}
+.testimonial-container{
+  display: flex;
  
+
+}
+.testimonial-card{
+  background:white;
+  padding: 0%;
+  margin: 0%;
+  border-radius: 5%;
+  box-shadow: 0 2px 6px;
+}
+
+  
