@@ -11,7 +11,7 @@ const app = express();
 
 
 // Define the port number for running the server
-const PORT = 8080;
+const PORT = 9090;
 
 
 // Middleware setup
@@ -77,6 +77,13 @@ app.post("/api/create-user", async (req, res) => {
 
 
 
-
+app.get("api/get-all-users" , async (req, res)=> {
+  try {
+    const userList = await User.find()
+    res.status(200).json({data :userList })
+  } catch (error) {
+    res.status(500).json({ message: "Internal Server Error", error });
+  }
+})
 
  
